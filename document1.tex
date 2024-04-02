@@ -1,0 +1,117 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{graphicx}
+%这个是导入图片
+\usepackage{subcaption}
+\usepackage{amsmath}
+%opening
+\title{二121}
+\author{zhs}
+\date{\today}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+	这里是摘要
+\end{abstract}
+
+hello，this is a example涵和时代价值，分享学习成果和感悟，鼓励团员和青年在实际工作和学习开中践行五四精
+
+\textbf{这里是加粗}
+\textit{这里是斜体qweqe}
+
+一行回车是空格
+\underline{这里是下划线，}
+
+\section{这是第一个章节}
+
+
+\subsection{这是一个次标题}
+
+
+讨论五四精神的内涵和时代价值，分享学习成果和感悟，鼓励团员和青年在实际工作和学习开中践行五四精神。
+\section{这是第二个章节}
+
+\begin{table}[htbp]
+\center
+	\begin{tabular}
+		{p{3cm} c| c}
+		\hline\hline
+		表格有三列，每列居中对齐&12&12\\
+		45&56&78\\	
+	%p 自定义列宽
+	\end{tabular}
+		\caption{标题}
+\end{table}
+
+爱因斯坦发现只能方程$E=mc^2$
+%行内公式写在$之间$
+\[
+E=mc^2 
+\]如果要写在中间
+
+
+直接跟在中间公式格式的下面的文字是顶头的
+
+
+\section{}
+$a={k\varphi(n)+1}\over e$
+{如果要单独的修改字体大小\fontsize{20}{12}\selectfont abcd}
+%注意用{括起来}
+
+在第 \ref{fig:myphoto} 章中我们介绍了...
+
+详见第 \pageref{fig:myphoto} 页。
+\begin{equation}
+	\Delta u_{i,t} = \sum_{j=1}^{p} \alpha_{i,j} \Delta u_{i,t-j} + \varepsilon_{i,t}  \tag{2.1} 
+\end{equation}
+this is a good example to show a gongshi 
+
+\begin{equation}
+	\Delta u_{i,t} = \sum_{j=1}^{p} \alpha_{i,j} \Delta u_{i,t-j} + \varepsilon_{i,t}   \label{eq:example}
+\end{equation}
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=3cm]{xh}
+	\quad	\includegraphics[width=0.5\textwidth]{xh}
+	\caption{图片标题}
+	
+	\label{fig:myphoto}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{example-image-a}
+		\caption{图1题目}
+		\label{fig:subfig1}
+	\end{subfigure}
+	\hspace{0.2\textwidth} % 适当的间距
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{example-image-b}
+		\caption{图2题目}
+		\label{fig:subfig2}
+	\end{subfigure}
+	
+	\medskip % 适当的垂直间距
+	
+	\begin{subfigure}{0.4\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{example-image-c}
+		\caption{图3题目}
+		\label{fig:subfig3}
+	\end{subfigure}
+	\hspace{0.1\textwidth} % 适当的间距
+	\begin{subfigure}{0.4\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{example-image}
+		\caption{图4题目}
+		\label{fig:subfig4}
+	\end{subfigure}
+	
+	\caption{总标题}
+	\label{fig:total}
+\end{figure}
+
+\end{document}
