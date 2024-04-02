@@ -1,5 +1,5 @@
-class A{
-    static int m=5;//Èç¹ûÓĞstatic ¾ÍÊÇÈ«¾Ö±äÁ¿£¬ËùÓĞµÄm¶¼ÒªÒ»¸öÖµ
+class A{//b2 change
+    static int m=5;//å¦‚æœæœ‰static å°±æ˜¯å…¨å±€å˜é‡ï¼Œæ‰€æœ‰çš„méƒ½è¦ä¸€ä¸ªå€¼
     void addA(int x){
         m=m+x;
     }
